@@ -1,0 +1,16 @@
+.input-item {
+  @apply w-full cursor-pointer p-2 border border-gray-300 rounded flex items-center justify-between bg-gray-100 h-10 focus:outline-none ;
+}
+
+.submit-button {
+  @apply w-full bg-blue-500 text-gray-100 text-sm py-2 rounded font-semibold h-10;
+}
+
+.error-message {
+  @apply text-blue-600 text-[.625rem] absolute font-semibold;
+}
+
+.label {
+  @apply text-gray-600 text-xs block mb-3;
+}
+
